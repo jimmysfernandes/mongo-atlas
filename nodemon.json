@@ -1,0 +1,10 @@
+{
+    "restartable": "rs",
+    "ignore": [
+      "node_modules/**/node_modules"
+    ],
+    "verbose": false,
+    "env": {
+      "MONGO_URL": "mongodb://root:example@192.168.0.19:27017/myFirstDatabase?authSource=admin"
+    }
+  }
